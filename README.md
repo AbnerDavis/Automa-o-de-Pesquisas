@@ -2,7 +2,8 @@
 Automação de Pesquisa Google
                Criado via Java Eclips - IDE 
 ******************************************************************
-
+           
+******************************************************************
 Essa automação é divididade em 3 Packages, cada uma com 1 classa.
 
    PACKAGE    >   CLASS
