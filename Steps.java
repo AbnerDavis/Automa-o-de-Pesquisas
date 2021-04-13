@@ -16,31 +16,25 @@ public class Steps {
 		metodo.abrirNavegador(string);
 	}
 
-	@When("pesquisar o nome da escola {string}")
-	public void pesquisar_o_nome_da_escola(String string) {
+	@Then("valido informacao")
+	public void valido_informacao() {
+	  
+	}
+
+	@When("pesquisar por {string}")
+	public void pesquisar_por(String string) {
 		metodo.escrever(string, el.getPesquisar());
 		metodo.submit(el.getPesquisar());
 	}
 
-	@Then("valido {string}")
-	public void valido(String string) {
-
+	@Then("valido as informacao")
+	public void valido_as_informacao() {
+	    
 	}
 
-	@When("pesquisar a {string}")
-	public void pesquisar_a(String string) {
-		metodo.escrever(string, el.getPesquisar());
-		metodo.submit(el.getPesquisar());
+	@Then("valido a informacao")
+	public void valido_a_informacao() {
+	   
 	}
-
-	@Then("valido inovacao {string}")
-	public void valido_inovacao(String string) {
-
-	}
-
-	@Then("valido felicidade {string}")
-	public void valido_felicidade(String string) {
-       //      metodo.fecharNavegador();
-	}
-
+	
 }
