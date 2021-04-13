@@ -1,4 +1,4 @@
-# Automa-o-de-Pesquisas
+# Automação-de-Pesquisas
 Automação de Pesquisa Google
                Criado via Java Eclips - IDE 
 ******************************************************************
