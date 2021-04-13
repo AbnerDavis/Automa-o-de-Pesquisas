@@ -1,2 +1,2 @@
 # Automa-o-de-Pesquisas
-Automação de Pesquisa google
+Automação de Pesquisa Google
