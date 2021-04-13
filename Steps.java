@@ -40,7 +40,7 @@ public class Steps {
 
 	@Then("valido felicidade {string}")
 	public void valido_felicidade(String string) {
-
+       //      metodo.fecharNavegador();
 	}
 
 }
